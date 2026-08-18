@@ -6,9 +6,9 @@ app = Flask(__name__)
 def get_status():
     # Lab Part E Response (Modify this later in Part F)
     return jsonify({
-        "status": "Mobile backend online",
-        "database": "connected",
-        "server_environment": "Render.com PaaS"
+        "status": "Online",
+        "Developer": "Eshika Pratheesh",
+        "reg_number": "24MIC0061"
     })
 
 if __name__ == '__main__':
